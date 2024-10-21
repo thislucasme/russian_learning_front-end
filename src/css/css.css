@@ -1,0 +1,9 @@
+/* Estilos personalizados para esconder a barra de rolagem */
+.custom-scrollbar {
+    overflow-y: scroll; /* Permite rolagem */
+    scrollbar-width: none; /* Para Firefox, esconde a barra de rolagem */
+}
+
+.custom-scrollbar::-webkit-scrollbar {
+    display: none; /* Esconde a barra de rolagem no Chrome/Safari */
+}
